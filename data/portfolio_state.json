@@ -1,0 +1,12 @@
+{
+  "portfolio": {
+    "cash": 0.0,
+    "gold_shares": 328.9473684210526,
+    "silver_shares": 265.1113467656416
+  },
+  "last_price": {
+    "date": "2026-02-01",
+    "gold_price": 91.2,
+    "silver_price": 75.44
+  }
+}
