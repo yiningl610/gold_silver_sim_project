@@ -217,7 +217,8 @@ def main() -> None:
                 trades=trades,
                 initial_cash=initial_cash,
             )
-            save_state(p, MarketPrice(date=date0, gold_price=gold0, silver_price=silver0))
+            last_price = MarketPrice(date=date, gold_price=gold, silver_price=silver)
+            save_state(p, last_price)
             _print_summary(date, gold, silver, p, initial_cash)
         except Exception as e:
             print(f"\nERROR: {e}")
